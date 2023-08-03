@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BA386E76-1B72-4AC0-A2A8-9844FFE6C0DF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C740A76-13E2-4DEA-9294-373A1851D95A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MomoKatsu_Kadai-17/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "inputNameTextField(unwindSegue:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9C740A76-13E2-4DEA-9294-373A1851D95A - f7a36d37d8c207d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.inputNameTextField(unwindSegue: __C.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "9C740A76-13E2-4DEA-9294-373A1851D95A - f7a36d37d8c205c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.inputNameTextField(unwindSegue: __C.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "9C740A76-13E2-4DEA-9294-373A1851D95A - f7a36d37d8c203b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.inputNameTextField(unwindSegue: __C.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "9C740A76-13E2-4DEA-9294-373A1851D95A - f7a36d37d8c2123"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.inputNameTextField(unwindSegue: __C.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "9C740A76-13E2-4DEA-9294-373A1851D95A - f7a36d37d8c2102"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.inputNameTextField(unwindSegue: __C.UIStoryboardSegue) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "932">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8EEE8D5-61CC-4227-8DD8-40733A96E925"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MomoKatsu_Kadai-17/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "loadSelectItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8EEE8D5-61CC-4227-8DD8-40733A96E925 - 96dea33d743f0ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.loadSelectItems() -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1087">
+               </Location>
+               <Location
+                  uuid = "E8EEE8D5-61CC-4227-8DD8-40733A96E925 - 96dea33d743f0c0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.loadSelectItems() -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "1109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "900FD8D5-1102-4B2A-991D-DBD69D081C92"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MomoKatsu_Kadai-17/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "saveSelectItems(selectItems:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "900FD8D5-1102-4B2A-991D-DBD69D081C92 - 12d0f812de06f8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.saveSelectItems(selectItems: Swift.Array&lt;MomoKatsu_Kadai_17.ViewController.ItemValue&gt;) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "674">
+               </Location>
+               <Location
+                  uuid = "900FD8D5-1102-4B2A-991D-DBD69D081C92 - 12d0f812de06f6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_17.ViewController.saveSelectItems(selectItems: Swift.Array&lt;MomoKatsu_Kadai_17.ViewController.ItemValue&gt;) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-17"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/%E3%82%A2%E3%83%95%E3%82%9A%E3%83%AA%E9%81%93%E5%A0%B4%E8%AA%B2%E9%A1%8C%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B7%E3%82%99%E9%96%A2%E9%80%A3/MomoKatsu_Kadai-17%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC/MomoKatsu_Kadai-17/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "674">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8FE279F-FFA3-4A89-A6CC-135464AED7A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MomoKatsu_Kadai-17/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "loadSelectItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
