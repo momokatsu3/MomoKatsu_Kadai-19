@@ -9,7 +9,7 @@ import UIKit
 class ViewController: UIViewController {
 
     // UserDefaults用キー設定
-    let itemUserDefaultKey = "ItemValueKey"    // 課題１９の追加分**********
+    static let itemUserDefaultKey = "ItemValueKey"  // 課題１９の追加分**********
 
     // 編集用インデックスパスnadoを設定
     private var editSelectedIndexPath: IndexPath?
@@ -29,14 +29,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // テーブルビュー表示内容
         selectItems = [
-            ItemValue(name: "りんご", check: false),
-            ItemValue(name: "みかん", check: true),
-            ItemValue(name: "バナナ", check: false),
-            ItemValue(name: "パイナップル", check: true),
+           ItemValue(name: "りんご", check: false),
+           ItemValue(name: "みかん", check: true),
+           ItemValue(name: "バナナ", check: false),
+           ItemValue(name: "パイナップル", check: true),
         ]
-
-         // ユーザーデフォルトをロードする
-         loadSelectItems()  // 課題１９の追加分**********
+        // ユーザーデフォルトをロードする
+		loadSelectItems()  // 課題１９の追加分**********
     }
 
 
@@ -45,15 +44,21 @@ class ViewController: UIViewController {
     // ユーザーデフォルトをロード
     //UserDefaultsから Data 型として取得し、構造体に変換し直す
     func loadSelectItems() {
-        // `JSONDecoder` で `Data` 型を自作した構造体へデコードする
+        // `JSONDecoder`で`Data`型を自作した構造体へデコードする
         let jsonDecoder = JSONDecoder()
         jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
-        guard let data = UserDefaults.standard.data(forKey: itemUserDefaultKey),
-              //let dataModel = try? jsonDecoder.decode(ItemValue.self, from: data) else {
-              let _ = try? jsonDecoder.decode(ItemValue.self, from: data) else {
-            //print("loadSelectItems実施後のselectItems：", selectItems)
+        guard let decodedValue = UserDefaults.standard.data(forKey: ViewController.itemUserDefaultKey),
+              let dataModel = try? jsonDecoder.decode([ItemValue].self, from: decodedValue) else {
             return
         }
+
+        //`JSONDecoder`で`Data`型へデコードした値を構造体を初期化後へデータを設定
+        selectItems = []
+        for loadItem in dataModel {
+            selectItems.append(loadItem)
+            //print("loadSelectItems実施時のデコード値：", loadItem)
+        }
+        //print("loadSelectItems実施後のselectItems：", selectItems)
     }
 
     //ユーザーデフォルトに保存
@@ -66,7 +71,7 @@ class ViewController: UIViewController {
             return
         }
         //print("saveSelectItems実施後のselectItems：", selectItems)
-        UserDefaults.standard.set(data, forKey: itemUserDefaultKey)
+        UserDefaults.standard.set(data, forKey: ViewController.itemUserDefaultKey)
     }
     // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
