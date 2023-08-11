@@ -44,34 +44,28 @@ class ViewController: UIViewController {
     // ユーザーデフォルトをロード
     //UserDefaultsから Data 型として取得し、構造体に変換し直す
     func loadSelectItems() {
-        // `JSONDecoder`で`Data`型を自作した構造体へデコードする
-        let jsonDecoder = JSONDecoder()
-        jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
-        guard let decodedValue = UserDefaults.standard.data(forKey: ViewController.itemUserDefaultKey),
-              let dataModel = try? jsonDecoder.decode([ItemValue].self, from: decodedValue) else {
-            return
+        do {
+            let jsonDecoder = JSONDecoder()
+            jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
+            guard let decodedValue = UserDefaults.standard.data(forKey: ViewController.itemUserDefaultKey) else {
+                return
+            }
+            selectItems = try jsonDecoder.decode([ItemValue].self, from: decodedValue)
+        } catch {
+            // 必要に応じてユーザーへの情報提示などを行う
         }
-
-        //`JSONDecoder`で`Data`型へデコードした値を構造体を初期化後へデータを設定
-        selectItems = []
-        for loadItem in dataModel {
-            selectItems.append(loadItem)
-            //print("loadSelectItems実施時のデコード値：", loadItem)
-        }
-        //print("loadSelectItems実施後のselectItems：", selectItems)
     }
 
     //ユーザーデフォルトに保存
     //構造体をUserDefaultsに追加する
     func saveSelectItems(selectItems: [ItemValue]) {
-        // `JSONEncoder` で `Data` 型へエンコードし、UserDefaultsに追加
-        let jsonEncoder = JSONEncoder()
-        jsonEncoder.keyEncodingStrategy = .convertToSnakeCase
-        guard let data = try? jsonEncoder.encode(selectItems) else {
-            return
+        do {
+            let jsonEncoder = JSONEncoder()
+            jsonEncoder.keyEncodingStrategy = .convertToSnakeCase
+            UserDefaults.standard.set(try jsonEncoder.encode(selectItems), forKey: ViewController.itemUserDefaultKey)
+        } catch {
+            // 必要に応じてユーザーへの情報提示などを行う
         }
-        //print("saveSelectItems実施後のselectItems：", selectItems)
-        UserDefaults.standard.set(data, forKey: ViewController.itemUserDefaultKey)
     }
     // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
 
